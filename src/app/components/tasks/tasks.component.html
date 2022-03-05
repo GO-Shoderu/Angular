@@ -1,0 +1,8 @@
+<!-- <p>tasks works!</p> -->
+<!-- <p *ngFor="let task of tasks">
+    Task: {{ task.id }} <br>
+    {{ task.text }} <br>
+    {{ task.day }} <br>
+    {{ task.reminder }} <br><br>
+</p> -->
+<app-task-item *ngFor="let task of tasks" [task]="task" (onDeleteTask)="deleteTask(task)"></app-task-item>

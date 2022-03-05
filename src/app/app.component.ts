@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crash';
+
+  //properties comes here and it is a good coding convention to 
+  // include typescript
+  // title: string = 'Task Tracker!';
 }
